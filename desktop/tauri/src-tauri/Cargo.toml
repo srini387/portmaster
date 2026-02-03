@@ -42,7 +42,7 @@ tokio = { version = "1.44.2", features = ["macros"] }
 cached = "0.46.1"
 notify-rust = "4.10.0"
 assert_matches = "1.5.0"
-bytes = "1.5"
+bytes = "1.11"
 tokio-websockets = { version = "0.5.0", features = ["client", "ring", "rand"] }
 sha = "1.0.3"
 http = "1.0.0"
@@ -59,7 +59,7 @@ dark-light = "2.0.0"
 
 # Linux only
 [target.'cfg(target_os = "linux")'.dependencies]
-glib = "0.18.4"
+glib = "0.20.0"
 gtk-sys = "0.18.0"
 glib-sys = "0.18.1"
 gdk-pixbuf = "0.18.3"
